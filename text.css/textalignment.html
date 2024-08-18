@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>text alignment</title>
+    <style>
+      .center {
+        text-align: center;
+        color: rgb(10, 35, 57);
+      }
+      .left {
+        text-align: left;
+        color: rgb(2, 11, 19);
+        margin-bottom: 50px;
+      }
+      .right {
+        text-align: right;
+        color: rgb(2, 17, 31);
+        border-style: dashed;
+        border-color: aqua;
+        padding: 10px;
+      }
+      .justify {
+        width: 300px;
+        height: 400px;
+        text-align: justify;
+        color: chartreuse;
+        background-color: black;
+        padding: 30px;
+      }
+      .a {
+        text-align-last: center;
+      }
+      .b {
+        text-align-last: left;
+      }
+      .c {
+        text-align-last: right;
+      }
+      .direction {
+        direction: rtl;
+      }
+      .unicode {
+        direction: rtl;
+        unicode-bidi: bidi-override;
+      }
+      img.a {
+        vertical-align: baseline;
+      }
+
+      img.b {
+        vertical-align: text-top;
+      }
+
+      img.c {
+        vertical-align: text-bottom;
+      }
+
+      img.d {
+        vertical-align: sub;
+      }
+
+      img.e {
+        vertical-align: super;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="center">center</h1>
+    <hr />
+    <h1 class="left">left</h1>
+    <hr />
+    <h1 class="right">right</h1>
+    <hr />
+    <h1>Textalign-justify</h1>
+    <p>
+      The text-align: justify; value stretches the lines so that each line has
+      equal width (like in newspapers and magazines).
+    </p>
+    <p class="justify">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sed
+      delectus officia iusto repellendus. Labore facere accusamus optio quae!
+      Recusandae, esse sunt repellendus debitis molestias aperiam sequi
+      blanditiis exercitationem molestiae expedita assumenda hic perspiciatis
+      aut eveniet nobis et optio aspernatur deleniti! Sunt cumque quaerat
+      laborum id delectus fugiat iste odit.
+    </p>
+    <h1>Text-align-last</h1>
+    <p class="a">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, sunt!
+      Aliquam repudiandae atque nesciunt blanditiis similique hic, temporibus
+      inventore eum sequi laudantium odio nobis optio omnis, odit
+      necessitatibus! Consectetur nam aspernatur quos! In asperiores laborum,
+      eos incidunt, aliquam quia soluta modi praesentium saepe recusandae totam
+      consequatur reprehenderit ipsum blanditiis ullam!
+    </p>
+    <p class="b">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor impedit
+      beatae natus vel quibusdam minus velit incidunt dolorum qui sequi. Nulla,
+      voluptatibus at quibusdam soluta aliquid magni a minima nesciunt ex
+      officia illum corporis deserunt beatae quos nostrum accusamus ullam
+      distinctio voluptas ipsa! Dignissimos accusamus magni hic maiores minus!
+      Non!
+    </p>
+    <p class="c">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis
+      exercitationem, dolore sequi iusto accusantium labore veritatis non ipsum
+      in, minima recusandae. Maiores exercitationem itaque quas! Aut sapiente
+      ullam numquam necessitatibus quis voluptate libero, ea iure sed? Eligendi
+      inventore soluta, tenetur aut a nihil autem provident explicabo,
+      necessitatibus laborum voluptatibus deserunt!
+    </p>
+    <p class="direction">ABCD</p>
+    <p class="unicode">ABCD</p>
+    <h1>The vertical-align Property</h1>
+
+    <h2>vertical-align: baseline (default):</h2>
+    <p>
+      An <img class="a" src="sqpurple.gif" width="9" height="9" /> image with a
+      default alignment.
+    </p>
+
+    <h2>vertical-align: text-top:</h2>
+    <p>
+      An <img class="b" src="sqpurple.gif" width="9" height="9" /> image with a
+      text-top alignment.
+    </p>
+
+    <h2>vertical-align: text-bottom:</h2>
+    <p>
+      An <img class="c" src="sqpurple.gif" width="9" height="9" /> image with a
+      text-bottom alignment.
+    </p>
+
+    <h2>vertical-align: sub:</h2>
+    <p>
+      An <img class="d" src="sqpurple.gif" width="9" height="9" /> image with a
+      sub alignment.
+    </p>
+
+    <h2>vertical-align: sup:</h2>
+    <p>
+      An <img class="e" src="sqpurple.gif" width="9" height="9" /> image with a
+      super alignment.
+    </p>
+  </body>
+</html>
