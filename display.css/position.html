@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div.fixed {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 300px;
+        border: 3px solid #73ad21;
+      }
+      .container {
+        position: relative;
+      }
+      .topleft {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        font-size: medium;
+        color: white;
+      }
+      .topright {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+        font-size: 18px;
+        color: white;
+      }
+
+      .bottomleft {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+        font-size: 18px;
+        color: white;
+      }
+
+      .bottomright {
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+        font-size: 18px;
+        color: white;
+      }
+
+      .center {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        color: white;
+      }
+      img {
+        width: 100%;
+        height: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>position: fixed;</h2>
+
+    <p>
+      An element with position: fixed; is positioned relative to the viewport,
+      which means it always stays in the same place even if the page is
+      scrolled:
+    </p>
+
+    <div class="fixed">This div element has position: fixed;</div>
+
+    <div class="container">
+      <img
+        src="https://picsum.photos/200/300"
+        alt="Random Image"
+        width="1000"
+        height="200"
+      />
+      <div class="topleft">Top Left</div>
+      <div class="topright">Top Right</div>
+      <div class="bottomleft">Bottom Left</div>
+      <div class="bottomright">Bottom Right</div>
+      <div class="center">Centered</div>
+    </div>
+  </body>
+</html>
