@@ -6,12 +6,11 @@ This repository contains my hands-on practice files for core Cascading Style She
 ## 🗂️ What's Included
 The files are broken down by specific CSS properties and concepts to isolate and master each technique:
 
-* **The Box Model & Layout (`boxmodel.css`, `margin.css`, `outline.css`, `display.css`):** * Mastering how elements take up space (content, padding, borders, and margins).
-  * Understanding document flow using block, inline, and inline-block display properties.
-* **Typography & Text (`font.css`, `text.css`):** * Controlling font families, sizes, weights, text alignment, and decorations.
-* **Colors & Visuals (`color.css`, `icon.css`):** * Applying hex, RGB, and named colors to text and backgrounds, alongside styling web icons.
-* **Styling Specific Elements (`lists.css`, `tables.css`, `stylelinks.css`):** * Customizing list markers, adding borders and zebra-striping to tables, and handling pseudo-classes for links (`:hover`, `:visited`, `:active`).
-* **Basics & Assets (`intro.css`, `rukia.jpg.jpg`):** * Introductory syntax, basic selectors, and practicing with external image assets.
+* **The Box Model & Layout (`boxmodel.css`, `margin.css`, `outline.css`, `display.css`):** Mastering how elements take up space (content, padding, borders, and margins) and understanding document flow.
+* **Typography & Text (`font.css`, `text.css`):** Controlling font families, sizes, weights, text alignment, and decorations.
+* **Colors & Visuals (`color.css`, `icon.css`):** Applying hex, RGB, and named colors to text and backgrounds, alongside styling web icons.
+* **Styling Specific Elements (`lists.css`, `tables.css`, `stylelinks.css`):** Customizing list markers, adding borders to tables, and handling pseudo-classes for links.
+* **Basics & Assets (`intro.css`, `rukia.jpg.jpg`):** Introductory syntax, basic selectors, and practicing with external image assets.
 
 ## 🧠 Key Takeaways
 * **The Box Model:** Realizing that every HTML element is essentially a box, which is the most critical concept for debugging layout issues.
@@ -22,6 +21,12 @@ Because this repository primarily contains `.css` files, they need to be attache
 
 1. Clone this repository to your local machine.
 2. Create a basic `index.html` file in the same directory.
-3. Link the CSS file you want to test in the `<head>` of your HTML document:
-   ```html
-   <link rel="stylesheet" href="boxmodel.css">
+3. Link the CSS file you want to test in the `<head>` of your HTML document using: `<link rel="stylesheet" href="boxmodel.css">`
+4. Add some basic HTML elements (`<div>`, `<p>`, `<a>`) and open the HTML file in your browser to see the styles applied.
+
+## 🔮 Next Steps
+* Combine these individual concepts to build fully responsive, cohesive web pages.
+* Transition from vanilla CSS to modern utility-first frameworks like Tailwind CSS for faster development in full-stack projects.
+
+---
+*Maintained by Harshith *
