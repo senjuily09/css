@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "poppins", sans-serif;
+      }
+      body {
+        background: #f9f9f9;
+        min-height: 100vh;
+      }
+      header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: #359381;
+      }
+      nav {
+        display: flex;
+        gap: 20px;
+      }
+      nav a {
+        text-decoration: none;
+        color: #333;
+        transition: color 0.2s ease;
+      }
+      nav a:hover {
+        color: #fff;
+      }
+      .navigation {
+        padding: 6px 16px;
+        border-radius: 20px;
+        margin: 0 10px;
+        transition: background-color 0.2s ease;
+      }
+      .navigation:hover {
+        background-color: #359381;
+      }
+      .active {
+        background-color: #359381;
+        color: #fff;
+      }
+      .parallax{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      #texts{
+        position: absolute;
+        font-size: 5em;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2 class="logo">logo</h2>
+      <nav>
+        <a href="#" class="navigation active">Home</a>
+        <a href="#" class="navigation">About</a>
+        <a href="#" class="navigation">Service</a>
+        <a href="#" class="navigation">Contact</a>
+      </nav>
+    </header>
+    <section class="parallax">
+        <h2 id="texts">Login</h2>
+        <img src="hills1.jpg" alt="hills1">
+    </section>
+
+  </body>
+</html>
